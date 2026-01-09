@@ -10,14 +10,14 @@
 
   <body>
     <div class="app-container">
-      <h1>Joes Weather App</h1>
-      <form class="weather-form">
-        <input type="text" id="city-input" placeholder="Enter city name">
+      <h1 id="header">Joes Weather App</h1>
+      <form id="weather-form-id" class="weather-form" onsubmit="return false;">
+        <input type="text" id="city-input" placeholder="Enter City ex: 'Denver'" required>
         <button id="get-weather-btn">Get Weather</button>
       </form>
 
       <div id="weather-result-container">
-        <p id="city">Alta, Ca</p>
+        <p id="city"></p>
 
         <div id="high-temp-container">
           <span id="high-temp-label" class="temps">High:</span>
