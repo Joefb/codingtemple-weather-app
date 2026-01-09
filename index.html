@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joes Weather App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="app-container">
+      <h1>Joes Weather App</h1>
+      <form class="weather-form">
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="get-weather-btn">Get Weather</button>
+      </form>
+
+      <div id="weather-result-container">
+        <p id="city">Alta, Ca</p>
+
+        <div id="high-temp-container">
+          <span id="high-temp-label" class="temps">High:</span>
+          <span id="high-temp"></span>
+        </div>
+
+        <div id="low-temp-container" class="temps">
+          <span id="low-temp-label">Low:</span>
+          <span id="low-temp"></span>
+        </div>
+
+        <div id="forecast-container" class="temps">
+          <span id="forecast-label">Forecast:</span>
+          <span id="forecast"></span>
+        </div>
+
+        <div id="humidity-container" class="temps">
+          <span id="humidity-label">Humidity:</span>
+          <span id="humidity"></span>
+        </div>
+
+      </div>
+  </body>
+</html>
